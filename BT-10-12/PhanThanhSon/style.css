@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.des{
+    margin: 70px;
+    border: 2px solid red;
+    width: 50%;
+}
+
+.des p{
+    border: 1px solid green;
+    margin: 70px;
+}
+
+.des_1{
+    border: 1px solid red;
+    width: 500px;
+    margin: 70px;
+    padding: 70px;
+}
+
+
+/* Nangcao */
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.navbar ul li{
+    padding: 20px 80px;
+    background-color: blanchedalmond;
+    border-right: 1px solid black;
+    cursor: pointer;
+    width: calc(100%/6);
+    text-align: center;
+}
+
+.navbar ul li:hover{
+    background-color: aquamarine;
+}
+
+.navbar ul li:last-child{
+    border-right: none;
+}
+
+.navbar ul a {
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.box{
+    position: relative;
+    margin-top: 50px;
+    width: 100%;
+    min-height: 500px;
+}
+
+.box_1{
+    border: 1px solid black;
+    background-color: antiquewhite;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.box_2{
+    border: 1px dotted black;
+    position: absolute;
+    background-color:aquamarine;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_3{
+    border: 1px dotted black;
+    position: absolute;
+    background-color:aqua;
+    width: 100px;
+    height: 100px;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_4{
+    border: 1px dotted black;
+    position: absolute;
+    background-color:rgb(88, 103, 103);
+    width: 100px;
+    height: 100px;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_5{
+    border: 1px dotted black;
+    position: absolute;
+    background-color:rgb(204, 237, 237);
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
